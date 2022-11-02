@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    
+    padding: 25px 5rem;
+    position: absolute;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.13);
+    text-align: center;
+    
+    
+    
+}
+
+.logo2{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img{
+width: 100%;
+}
+
+.header .logo{
+    width: 160px;
+    cursor: pointer;
+    text-align: left;
+    color: #a3a3a3;
+    
+    float: left;
+    
+    
+    
+}
+
+
+.header .logo2 .main{
+    background-color: #ba71da;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+.header .logo2 {
+    float: right;
+}
+
+.header .logo2 a{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    padding: 25px 25px;
+    
+
+
+}
+
+.header .logo3{
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.slider{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25rem 0;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+
+.slider h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.slider h6{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+}
+
+.travel-box{
+    width: 31%;
+    float: left;
+    margin: 15px 1.1%;
+    
+
+}
+
+.travel h3{
+    color: #9a9a9a;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family:'Poppins', sans-serif;
+}
+
+.travel h2{
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-family:'Poppins', sans-serif;
+    padding: 25px;
+    color: #555555;
+}
+
+.travel-box img{
+    width: 90%;
+    vertical-align: bottom;
+    transition: 0.6s;
+    
+    
+}
+
+.travel-photo{
+    overflow: hidden;
+}
+
+.travel{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.travel-box:hover .travel-photo img{
+    transform: scale(1.2);
+}
